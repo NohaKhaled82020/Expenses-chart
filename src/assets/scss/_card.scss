@@ -12,6 +12,13 @@
 .card__right {
   margin-inline-start: auto;
 }
+.card__logo {
+  img {
+    max-width: 72px;
+    height: 48px;
+    object-fit: cover;
+  }
+}
 .card__header {
   border-radius: 10px;
   padding: 20px;
@@ -50,7 +57,7 @@
   display: flex;
   align-items: center;
   color: $darkColor;
-  padding-top: 20px;
+  padding: 25px 0;
   .card__right {
     text-align: right;
   }
@@ -61,7 +68,7 @@
   h2 {
     font-size: 37px;
   }
-  h4 {
+  h3 {
     font-size: 20px;
   }
 }
