@@ -1,0 +1,39 @@
+<div class="container">
+  <div class="card">
+    <div class="card__header">
+      <div class="card__title">
+        <p>My balance</p>
+        <h3>$921.48</h3>
+      </div>
+      <div class="card__logo">
+        <img src="assets/images/logo.svg" alt="logo" />
+      </div>
+    </div>
+
+    <div class="card__content">
+      <h1>Spending - Last 7 days</h1>
+      <div class="card__charts">
+        <ngx-charts-bar-vertical
+          [customColors]="barChartcustomColors"
+          [results]="expensesData"
+          [xAxis]="true"
+          [showGridLines]="false"
+        >
+          <ng-template #tooltipTemplate let-model="model" class="card__tooltip">
+            <div>${{ model.value }}</div>
+          </ng-template>
+        </ngx-charts-bar-vertical>
+      </div>
+      <div class="card__footer">
+        <div class="card__left">
+          <p>Total this month</p>
+          <h2>$478.33</h2>
+        </div>
+        <div class="card__right">
+          <h4>+2.4%</h4>
+          <p>from last month</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

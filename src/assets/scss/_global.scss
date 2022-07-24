@@ -1,0 +1,35 @@
+body {
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  background-color: $creamColor;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700;
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+a,
+input,
+button,
+select {
+  transition: 0.3s;
+}
+.container {
+  width: 100% !important;
+  max-width: 1200px !important;
+}
+.global-wrapper {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  .main-content {
+    flex: 1;
+  }
+}

@@ -1,0 +1,80 @@
+.card {
+  max-width: 420px;
+  margin: auto;
+  background: none;
+  border: none;
+  @include maxBreakpoint($mobilexLarge) {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+.card__logo,
+.card__right {
+  margin-inline-start: auto;
+}
+.card__header {
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  background-color: $primaryColor;
+  margin-bottom: 20px;
+  color: $orangeColor;
+  p {
+    opacity: 0.8;
+    margin-bottom: 5px;
+  }
+}
+.card__content {
+  border-radius: 10px;
+  padding: 20px;
+  background-color: $orangeColor;
+  h1 {
+    font-size: 25px;
+    margin-bottom: 45px;
+    color: $darkColor;
+  }
+}
+.card__charts {
+  padding-bottom: 20px;
+  border-bottom: 2px solid rgba($color: $lightColor, $alpha: 0.2);
+  .ngx-charts {
+    float: none !important;
+    text {
+      font-size: 14px !important;
+      fill: rgba($color: #000, $alpha: 0.6) !important;
+    }
+  }
+}
+.card__footer {
+  display: flex;
+  align-items: center;
+  color: $darkColor;
+  padding-top: 20px;
+  .card__right {
+    text-align: right;
+  }
+  p {
+    color: $lightColor;
+    font-size: 15px;
+  }
+  h2 {
+    font-size: 37px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+}
+// custom tooltip style
+ngx-tooltip-content {
+  &.ngx-charts-tooltip-content {
+    &.type-tooltip {
+      .tooltip-caret.position-top {
+        border: none;
+      }
+      padding: 5px 9px;
+      background-color: $darkColor;
+      box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    }
+  }
+}
