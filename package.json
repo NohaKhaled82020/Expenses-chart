@@ -21,6 +21,8 @@
     "@angular/platform-browser-dynamic": "^14.1.0",
     "@angular/router": "^14.1.0",
     "@ng-bootstrap/ng-bootstrap": "^12.1.2",
+    "@ngx-loading-bar/core": "^6.0.2",
+    "@ngx-loading-bar/router": "^6.0.2",
     "@popperjs/core": "^2.10.2",
     "@swimlane/ngx-charts": "^20.1.0",
     "bootstrap": "^5.1.3",
