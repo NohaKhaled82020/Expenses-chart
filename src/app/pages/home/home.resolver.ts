@@ -5,8 +5,8 @@ import {
   ActivatedRouteSnapshot,
 } from '@angular/router';
 import { Observable, of } from 'rxjs';
-import { baseUrl } from '../shared/constants/api.constants';
-import { DataService } from '../shared/services/data.service';
+import { baseUrl } from 'src/app/shared/constants/api.constants';
+import { DataService } from 'src/app/shared/services/data.service';
 
 @Injectable({
   providedIn: 'root',
