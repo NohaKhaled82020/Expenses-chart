@@ -1,5 +1,5 @@
 .card {
-  max-width: 420px;
+  max-width: 500px;
   margin: auto;
   background: none;
   border: none;
@@ -21,7 +21,7 @@
 }
 .card__header {
   border-radius: 10px;
-  padding: 20px;
+  padding: 25px;
   display: flex;
   align-items: center;
   background-color: $primaryColor;
@@ -37,7 +37,7 @@
   padding: 20px;
   background-color: $orangeColor;
   h1 {
-    font-size: 25px;
+    font-size: 27px;
     margin-bottom: 45px;
     color: $darkColor;
   }
@@ -57,7 +57,7 @@
   display: flex;
   align-items: center;
   color: $darkColor;
-  padding: 25px 0;
+  margin: 20px 0;
   .card__right {
     text-align: right;
   }
