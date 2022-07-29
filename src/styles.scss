@@ -1,3 +1,14 @@
+@font-face {
+  font-family: "DM Sans";
+  font-weight: 400;
+  src: url("assets/fonts/DMSans-Regular.ttf");
+}
+@font-face {
+  font-family: "DM Sans";
+  font-weight: 700;
+  src: url("assets/fonts/DMSans-Bold.ttf");
+}
+
 @import "~bootstrap/scss/bootstrap";
 
 @import "assets/scss/variables";
